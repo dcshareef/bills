@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    pointer-events:fill;
+    scroll-behavior: smooth;
+}
+.color-section{
+    background-color: rgb(255, 200, 0);
+    height: 40px;
+}
+nav{
+    background: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)),url('/backgrounds/medicine-bg.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    transition: 400ms;
+}
+nav ul li a:hover{
+    border-bottom: 4px solid rgb(255, 200, 0);
+    padding: 7px;
+}
+nav ul li:nth-child(3) a{
+    border-bottom: 4px solid rgb(255, 200, 0);
+    padding: 6px;
+}
+/* nav ul li:nth-child(3):hover{
+    border-style:none;
+} */
+
+
+
+
+
+
+.section-3{
+    height: 100vh;
+}
+.section-3 .text{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 1.8em;
+}
+.section-3 .content{
+    max-width: 350px;
+}
+.section-3 .content p{
+    margin-top: 20px;
+}
+.section-3 .content h1{
+    margin-bottom: 20px;
+}
+.section-3 .content button{
+    margin-top: 40px;
+    padding: 16px 55px;
+    font-size: 16px;
+    border-radius: 25px;
+    border-style: none;
+    color: #fff;
+    background-color: rgb(63, 59, 59);
+    font-weight: 900px;
+    transition: 600ms;
+}
+.section-3 .content-1:hover button{
+    background-color: rgb(255, 200, 0);
+}
+.section-3 .content-1 button:active{
+    background-color: rgb(142, 121, 46);
+}
+
+.section-3 .content-2:hover button{
+    background-color: rgb(255, 200, 0);
+}
+.section-3 .content-2 button:active{
+    background-color: rgb(142, 121, 46);
+}
+
+.section-3 .content-3:hover button{
+    background-color: rgb(255, 200, 0);
+}
+.section-3 .content-3 button:active{
+    background-color: rgb(142, 121, 46);
+}
+
+.section-3 .sec3-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+footer{
+    height: 60vh;
+    background-color: #1c1d1d;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    padding: 100px 50px;
+}
+footer .content{
+    margin: 0px 20px;
+}
+footer .content p{
+    margin-top: 15px;
+    line-height: 30px;
+}
+footer .content-1 p{
+    max-width: 310px;
+    font-size: 17px;
+}
+footer .content-2 p{
+    max-width: 310px;
+    font-size: 17px;
+}
+footer .content-3{
+    width: 210px;
+}
+footer .content-4{
+    max-width: 220px;
+}
+footer .content-3 h2{
+    margin-bottom: 15px;
+}
+footer .content-3 p{
+    margin-top: 0px;
+    font-size: 17px;
+    transition: 400ms;
+}
+footer .content-3 a{
+    color: rgba(255,255,255,0.4);
+    text-decoration: none;
+    transition: 400ms;
+}
+footer .content-3 a:hover{
+    color: rgb(255, 200, 0);
+}
+footer .content-4 input{
+    padding: 12px 17px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid #fff;
+    font-size: 16px;
+}
+footer .content-4 input:focus{
+    color: #fff;
+}
+footer .content-4 button{
+    margin-top: 21px;
+    padding: 12px 55px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(255, 200, 0);
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    border: 2px solid #fff;
+    transition: 500ms;
+}
+footer .content-4 button:hover{
+    background-color: #fff;
+    color: rgb(255, 200, 0);
+}
+footer .content-4 h2{
+    margin-bottom: 22px;
+}
+footer .content-4 a{
+    color: rgba(255,255,255,0.4);
+    text-decoration: none;
+    transition: 400ms;
+}
+footer .content-4 p{
+    color: rgba(255,255,255,0.4);
+}
+footer .content-4 a:hover{
+    color: rgb(255, 200, 0);
+}
+
+
+
+
+.last{
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.last .social{
+    margin: 12px 0px;
+}
+.last .social i{
+    margin: 0px 5px;
+    transition: 300ms;
+}
+.last .social i:hover{
+    transform: scale(1.2);
+}
+.last p span{
+    transition: 400ms;
+}
+.last p span:hover{
+    color: rgb(219, 174, 10);
+}
+.last p{
+    margin-top: 20px;
+}
+.last h2{
+    color: rgb(219, 174, 10);
+}

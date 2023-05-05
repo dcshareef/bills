@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    pointer-events:fill;
+    scroll-behavior: smooth;
+}
+.color-section{
+    background-color: rgb(255, 200, 0);
+    height: 40px;
+}
+nav{
+    background: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)),url('/backgrounds/medicine-bg.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    transition: 400ms;
+}
+nav ul li a:hover{
+    border-bottom: 4px solid rgb(255, 200, 0);
+    padding: 7px;
+}
+nav ul li:nth-child(2) a{
+    border-bottom: 4px solid rgb(255, 200, 0);
+    padding: 6px;
+}
+
+
+
+
+
+
+.section-6{
+    margin-top: 100px;
+    height: 100vh;
+    position: relative;
+}
+.section-6 .extra{
+    height: 520px;
+    width: 380px;
+    background-color: #fff;
+    position: absolute;
+    left: 15px;
+}
+.sec6-container .img{
+    z-index: 1;
+}
+.sec6-container{
+    height: 100vh;
+    background-color: rgb(255, 200, 0);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0px 40px;
+}
+.sec6-container h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.sec6-container p{
+    max-width: 600px;
+    line-height: 27px;
+}
+.sec6-container .content{
+    padding: 0px 35px;
+}
+.sec6-container .content button{
+    margin-top: 40px;
+    padding: 15px 50px;
+    font-size: 16px;
+    border-radius: 25px;
+    border-style: none;
+    color: #fff;
+    background-color: rgb(63, 59, 59);
+    font-weight: 900px;
+    transition: 500ms
+}
+.sec6-container .content button:hover{
+    background-color: rgb(31, 30, 27);
+}
+.sec6-container .content button:active{
+    background-color: rgb(142, 121, 46);
+}
+
+
+
+/* FOOTER SECTION STARTS HERE */
+
+
+
+footer{
+    height: 60vh;
+    background-color: #1c1d1d;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    padding: 100px 50px;
+}
+footer .content{
+    margin: 0px 20px;
+}
+footer .content p{
+    margin-top: 15px;
+    line-height: 30px;
+}
+footer .content-1 p{
+    max-width: 310px;
+    font-size: 17px;
+}
+footer .content-2 p{
+    max-width: 310px;
+    font-size: 17px;
+}
+footer .content-3{
+    width: 210px;
+}
+footer .content-4{
+    max-width: 220px;
+}
+footer .content-3 h2{
+    margin-bottom: 15px;
+}
+footer .content-3 p{
+    margin-top: 0px;
+    font-size: 17px;
+    transition: 400ms;
+}
+footer .content-3 a{
+    color: rgba(255,255,255,0.4);
+    text-decoration: none;
+    transition: 400ms;
+}
+footer .content-3 a:hover{
+    color: rgb(255, 200, 0);
+}
+footer .content-4 input{
+    padding: 12px 17px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid #fff;
+    font-size: 16px;
+}
+footer .content-4 input:focus{
+    color: #fff;
+}
+footer .content-4 button{
+    margin-top: 21px;
+    padding: 12px 55px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(255, 200, 0);
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    border: 2px solid #fff;
+    transition: 500ms;
+}
+footer .content-4 button:hover{
+    background-color: #fff;
+    color: rgb(255, 200, 0);
+}
+footer .content-4 h2{
+    margin-bottom: 22px;
+}
+footer .content-4 a{
+    color: rgba(255,255,255,0.4);
+    text-decoration: none;
+    transition: 400ms;
+}
+footer .content-4 p{
+    color: rgba(255,255,255,0.4);
+}
+footer .content-4 a:hover{
+    color: rgb(255, 200, 0);
+}
+
+
+
+
+.last{
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.last .social{
+    margin: 12px 0px;
+}
+.last .social i{
+    margin: 0px 5px;
+    transition: 300ms;
+}
+.last .social i:hover{
+    transform: scale(1.2);
+}
+.last p span{
+    transition: 400ms;
+}
+.last p span:hover{
+    color: rgb(219, 174, 10);
+}
+.last p{
+    margin-top: 20px;
+}
+.last h2{
+    color: rgb(219, 174, 10);
+}
